@@ -3,10 +3,6 @@ Adapted from:
 https://github.com/google/gmail-oauth2-tools/blob/master/python/oauth2.py
 https://developers.google.com/identity/protocols/OAuth2
 
-1. Generate and authorize an OAuth2 (generate_oauth2_token)
-2. Generate a new access tokens using a refresh token(refresh_token)
-3. Generate an OAuth2 string to use for login (access_token)
-
 Edited by Çalgan Aygün
 calgan.codes
 github.com/calganaygun
