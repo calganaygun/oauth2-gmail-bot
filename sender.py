@@ -141,7 +141,7 @@ def send_mail(fromaddr, toaddr, subject, message):
         server.docmd('AUTH', 'XOAUTH2 ' + auth_string)
         server.sendmail(fromaddr, toaddr, msg.as_string())
         server.quit()
-        print("Mail successfully sent to "+toaddr)
+        print("Succes: Mail successfully sent to "+toaddr)
     except:
         print("Error: unable to send email")
 
